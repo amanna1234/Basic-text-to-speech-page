@@ -1,0 +1,61 @@
+body{
+    background-color: #263571;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    
+}
+
+
+#text{
+    min-height: 50vh;
+    min-width: 60vw;
+    border-radius: 0.5rem;
+    padding: 10px;
+    border: none;
+    outline: none;
+   resize: none;
+   background-color: antiquewhite;
+}
+
+h1{
+    color:#feda14;
+}
+
+button{
+    margin-top: 2vh;
+    border: none;
+    background-color:#feda14 ;
+    color: #263571;
+}
+
+.round{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 0 0.2rem;
+}
+
+.rect{
+    height: 2rem;
+    width: 7rem;
+    
+    border-radius: 10rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
